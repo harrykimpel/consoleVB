@@ -3,7 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>consoleVB</RootNamespace>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+    <PackageReference Include="Halibut" Version="2.5.0" />
+    <PackageReference Include="UmbracoForms" Version="6.0.0" />
+  </ItemGroup>
 </Project>
